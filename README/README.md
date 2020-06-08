@@ -105,3 +105,5 @@ SSH into the control node and follow the steps below:
   - ansible-playbook [ELKSTACKSETUP.rtf](https://github.com/ctcastro/ELK2020/blob/master/README/Resources/Scripts/ELKSTACKSETUP.rtf)
 
 After completing all of these commands aswell as the instructions from "Using the Playbook" you should have a fully functional ELK Stack.
+
+*note* these .rtf files seem to code the .yml text. Im able on my end to quickly find the correct text but it seems im having trouble downloading it as .yml
