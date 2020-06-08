@@ -83,7 +83,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the [ELK_Stack_Setup.yml](/Resources/Scripts/ELK_Stack_Setup.yml ':include :type=code') file to "/etc/ansible/".
+- Copy the [ELKSTACKSETUP.rtf](https://github.com/ctcastro/ELK2020/blob/master/README/Resources/Scripts/ELKSTACKSETUP.rtf) file to "/etc/ansible/".
 - Copy the [Metricbeat_Configuration.yml](/Resources/Scripts/Metricbeat_Configuration.yml ':include :type=code') file to "/etc/ansible/".
   - EDIT "10.0.0.6" on line 46 & 70 to the internal IP of your ELK server.
 - Copy the [Filebeat_Configuration.yml](/Resources/Scripts/Filebeat_Configuration.yml ':include :type=code') file to "/etc/ansible/".
