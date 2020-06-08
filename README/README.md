@@ -102,6 +102,6 @@ SSH into the control node and follow the steps below:
   - ssh username@ELKServer
     -exit
   - cd /etc/ansible
-  - ansible-playbook [ELK_Stack_Setup.yml](/Resources/Scripts/ELK_Stack_Setup.yml ':include :type=code')
+  - ansible-playbook [ELKSTACKSETUP.rtf](https://github.com/ctcastro/ELK2020/blob/master/README/Resources/Scripts/ELKSTACKSETUP.rtf)
 
 After completing all of these commands aswell as the instructions from "Using the Playbook" you should have a fully functional ELK Stack.
