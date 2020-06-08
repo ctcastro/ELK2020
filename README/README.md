@@ -84,7 +84,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the [ELKSTACKSETUP.rtf](https://github.com/ctcastro/ELK2020/blob/master/README/Resources/Scripts/ELKSTACKSETUP.rtf) file to "/etc/ansible/".
-- Copy the [Metricbeat_Configuration.yml](/Resources/Scripts/Metricbeat_Configuration.yml ':include :type=code') file to "/etc/ansible/".
+- Copy the [Metricbeat_config.rtf](https://github.com/ctcastro/ELK2020/blob/master/README/Resources/Scripts/metricbeat_config.rtf) file to "/etc/ansible/".
   - EDIT "10.0.0.6" on line 46 & 70 to the internal IP of your ELK server.
 - Copy the [Filebeat_config.rtf](https://github.com/ctcastro/ELK2020/blob/master/README/Resources/Scripts/Filebeat_config.rtf) file to "/etc/ansible/".
   - EDIT "10.0.0.6" on line 1105 & 1804 to the internal IP of your ELK server.
